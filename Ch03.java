@@ -29,12 +29,12 @@ public class Ch03 {
 			}
 	}
 	
-	public static void area(double radius) {
+	public static double area(double radius) {
 	
 	// Square a number with radius
 	double square = Math.PI* Math.pow(radius, 2); {
 	
-	System.out.print(square);
+	return square;
 	}
 	
 	}
