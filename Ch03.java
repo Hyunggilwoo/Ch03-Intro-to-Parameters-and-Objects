@@ -19,6 +19,8 @@ public class Ch03 {
 	// inputBirthday
 	
 	Scanner console = new Scanner(System.in);
+	
+	inputBirthday(console);
 	}
 	// Function prints out each power of the base up to that maximum power.
 	
@@ -60,13 +62,13 @@ public class Ch03 {
 	
 	// obtain values
 	
-	System.out.print ("On what day of the month were you born?");
+	System.out.println ("On what day of the month were you born?");
 	int day = console.nextInt();
 	
-	System.out.print("What is the name of the month in which you were born?");
+	System.out.println("What is the name of the month in which you were born?");
 	String month = console.nextLine();
 	
-	System.out.print("During what year were you born?");
+	System.out.println("During what year were you born?");
 	int year = console.nextInt();
 	
 	// Prints the birthdate in a suitable format
