@@ -17,15 +17,14 @@ public class Ch03 {
 	
 	public static void printPowersOfN(int base, int power) {
 	
-		
-		// Enter the number of base and power here.
-		int powerOfN = (int) Math.pow( base, power);
-		
 		// Outer loop increases the integer of power by 1 in each increment
 		
 		for (int i =0; i <= power; i++) {
 			
-			System.out.print (powerOfN);
+			// Enter the number of base and power here.
+			int powersOfN = (int) Math.pow( base, i);
+		
+			System.out.print(powersOfN);
 			
 			}
 	}
