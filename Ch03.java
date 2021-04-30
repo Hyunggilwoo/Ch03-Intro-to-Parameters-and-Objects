@@ -45,25 +45,25 @@ public class Ch03 {
 	// Computes the volume of a sphere.
 	public static double sphereVolume (double radius) {
 	
-		double sphereVolume = 4 / 3 * Math.PI * Math.pow(radius, 3);
+		double sphereVolume = (4.0 / 3) * Math.PI * Math.pow(radius, 3);
 		
 		return sphereVolume;
 		}
 	
 	public static void inputBirthday() {
 	
-	Scanner console = new Scanner (System.in);
+	Scanner scanner = new Scanner(System.in);
 	
 	// obtain values
 	
 	System.out.print ("On what day of the month were you born?");
-	int day = console.nextInt();
+	int day = scanner.nextInt();
 	
 	System.out.print("What is the name of the month in which you were born?");
-	String month = console.next();
+	String month = scanner.nextLine();
 	
 	System.out.print("During what year were you born?");
-	int year = console.nextInt ();
+	int year = scanner.nextInt ();
 	
 	// Prints the birthdate in a suitable format
 	
