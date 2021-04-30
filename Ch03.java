@@ -15,6 +15,10 @@ public class Ch03 {
 	
 	// sphereVolume local variable
 	radius = 2;
+	
+	// inputBirthday
+	
+	Scanner console = new Scanner(System.in);
 	}
 	// Function prints out each power of the base up to that maximum power.
 	
@@ -50,20 +54,20 @@ public class Ch03 {
 		return sphereVolume;
 		}
 	
-	public static void inputBirthday() {
+	public static void inputBirthday(Scanner console) {
 	
-	Scanner scanner = new Scanner(System.in);
+	
 	
 	// obtain values
 	
 	System.out.print ("On what day of the month were you born?");
-	int day = scanner.nextInt();
+	int day = console.nextInt();
 	
 	System.out.print("What is the name of the month in which you were born?");
-	String month = scanner.nextLine();
+	String month = console.nextLine();
 	
 	System.out.print("During what year were you born?");
-	int year = scanner.nextInt ();
+	int year = console.nextInt();
 	
 	// Prints the birthdate in a suitable format
 	
