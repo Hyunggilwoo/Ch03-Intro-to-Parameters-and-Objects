@@ -12,6 +12,9 @@ public class Ch03 {
 	
 	// In area, declare a local variable radius
 	double radius = 5;
+	
+	// sphereVolume local variable
+	radius = 2;
 	}
 	// Function prints out each power of the base up to that maximum power.
 	
@@ -39,10 +42,12 @@ public class Ch03 {
 	
 	}
 	
+	// Computes the volume of a sphere.
 	public static double sphereVolume (double radius) {
 	
-	radius = 2;
-		return 4 / 3 * Math.PI * Math.pow(radius, 3);
+		double sphereVolume = 4 / 3 * Math.PI * Math.pow(radius, 3);
+		
+		return sphereVolume;
 		}
 	
 	public static void inputBirthday() {
