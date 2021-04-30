@@ -6,15 +6,17 @@ import java.lang.Math;
 public class Ch03 {
 	
 	public static void main (String[] args){
+		// For printPowerOfN
+		int base = 2;
+		int power = 5;
 	
+	// In area, declare a local variable radius
+	double radius = 5;
 	}
 	// Function prints out each power of the base up to that maximum power.
 	
-	public static void PrintPowersOfN() {
+	public static void PrintPowersOfN(int base, int power) {
 	
-		
-		int base = 2;
-		int power = 5;
 		
 		// Enter the number of base and power here.
 		int powerOfN = (int) Math.pow( base, power);
@@ -28,15 +30,10 @@ public class Ch03 {
 			}
 	}
 	
-	public static void area() {
-	
-	//Declare a local variable radius
-	double radius = 5;
+	public static void area(double radius) {
 	
 	// Square a number with radius
 	double square = Math.PI* Math.pow(radius, 2); {
-	
-	
 	
 	System.out.print(square);
 	}
