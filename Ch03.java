@@ -24,7 +24,7 @@ public class Ch03 {
 			// Enter the number of base and power here.
 			int powersOfN = (int) Math.pow( base, i);
 		
-			System.out.print(powersOfN);
+			System.out.print(powersOfN + " ");
 			
 			}
 	}
