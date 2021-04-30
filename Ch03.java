@@ -15,7 +15,7 @@ public class Ch03 {
 	}
 	// Function prints out each power of the base up to that maximum power.
 	
-	public static void PrintPowersOfN(int base, int power) {
+	public static void printPowersOfN(int base, int power) {
 	
 		
 		// Enter the number of base and power here.
