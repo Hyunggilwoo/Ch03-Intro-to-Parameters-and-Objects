@@ -62,13 +62,13 @@ public class Ch03 {
 	
 	// obtain values
 	
-	System.out.println("On what day of the month were you born?");
+	System.out.print("On what day of the month were you born?");
 	int day = console.nextInt();
 	
-	System.out.println("What is the name of the month in which you were born?");
+	System.out.print("What is the name of the month in which you were born?");
 	String month = console.next();
 	
-	System.out.println("During what year were you born?");
+	System.out.print("During what year were you born?");
 	int year = console.nextInt();
 	
 	
