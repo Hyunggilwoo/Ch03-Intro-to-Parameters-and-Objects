@@ -96,13 +96,13 @@ public class Ch03 {
 	int year = 25; 
 	
 	// for loop with year beginning at 1
-		public static double newBalance {
+		
 		for ( int i = 1; i <= year; i++) {
 	
-		System.out.print( c * Math.pow((1 + r/100), i) + d);
+		System.out.print( c = c * Math.pow((1 + r/100), i) + d);
 		}
+		return c;
 	
-	}
 
 }
 }
